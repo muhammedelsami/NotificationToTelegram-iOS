@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSNotificationUsageDescription</key>
+    <string>Diğer uygulamaların bildirimlerini yakalamak için izin gerekiyor</string>
+    <key>NSNotificationListenerUsageDescription</key>
+    <string>Diğer uygulamaların bildirimlerini yakalamak için izin gerekiyor</string>
+    <key>NSNotificationCenterUsageDescription</key>
+    <string>Diğer uygulamaların bildirimlerini yakalamak için izin gerekiyor</string>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>remote-notification</string>
+        <string>fetch</string>
+    </array>
+    <key>NSUserNotificationAlertStyle</key>
+    <string>alert</string>
+</dict>
+</plist>
